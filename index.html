@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Website</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <bod id >
+    <section id="header">
+      <a href="index.html"><img height="70px" src="assets/images/nikelogo.png" /></a>
+      <div>
+        <ul id="navbar">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="#product1">Shop</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#foot">Contact</a></li>
+          <li>
+            <a href="cart.html"
+              ><i class="fa-solid fa-bag-shopping"></i></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="hero">
+      <h4>Welcome to the store</h4>
+      <h2>Super value deals</h2>
+      <h1>On all products</h1>
+      <p>Save upto 60% off on new collection !</p>
+      <a href="#product1"><button>Shop now  !!</button></a>
+    </section>
+    <section id="product1" class="section-p1">
+      <h2>Featured products</h2>
+      <p>New collection Available Now !! </p>
+      <div class="pro-container ">
+
+        <div class="pro"> 
+          <img src="assets/images/shoe2.jpeg" alt="shoe1">
+          <div class="des">
+            <span>Nike</span>
+            <h5>LONDON CLAASIC </h5>
+            <div class="star">
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-regular fa-star" style="color: #FFD43B;"></i>              
+              <i class="fa-regular fa-star" style="color: #FFD43B;"></i>              
+            </div>
+            <h4>11999/-</h4>
+          </div>
+          <a onclick="addtocart1()"> <i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro"> 
+          <img src="assets/images/shoe4.jpeg" alt="shoe1">
+
+          <div class="des">
+            <span>Nike</span>
+            <h5>Nike Air FORCE 1 </h5>
+            <div class="star">
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-regular fa-star" style="color: #FFD43B;"></i> 
+              <i class="fa-regular fa-star" style="color: #FFD43B;"></i>               <i class="fa-regular fa-star" style="color: #FFD43B;"></i>              
+            </div>
+            <h4>15999/-</h4>
+          </div>
+          <a onclick="addtocart2()"> <i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro"> 
+          <img src="assets/images/shoe6.jpeg" alt="shoe1">
+          <div class="des">
+            <span>Nike</span>
+            <h5>SHOW STOPPER </h5>
+            <div class="star">
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-regular fa-star" style="color: #FFD43B;"></i>              
+            </div>
+            <h4>29999/-</h4>
+          </div>
+          <a onclick="addtocart3()"> <i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro"> 
+          <img src="assets/images/SHOE8.png" alt="shoe1">
+          <div class="des">
+            <span>Nike</span>
+            <h5>DUNK LOWS</h5>
+            <div class="star">
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-regular fa-star" style="color: #FFD43B;"></i>               <i class="fa-regular fa-star" style="color: #FFD43B;"></i>              
+            </div>
+            <h4>26999/-</h4>
+          </div>
+          <a href="#"> <i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        
+
+
+
+
+        <div class="pro"> 
+          <img src="assets/images/shoe1.webp" alt="shoe1">
+          <div class="des">
+            <span>NIKE</span>
+            <h5> Air 1 Supreme Edition</h5>
+            <div class="star">
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-regular fa-star" style="color: #FFD43B;"></i>              
+            </div>
+            <h4>25999/-</h4>
+          </div>
+          <a onclick="addtocart4()"> <i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro"> 
+          <img src="assets/images/shoe5.webp" alt="shoe1" >
+          <div class="des">
+            <span>NIKE</span>
+            <h5>Runner 350 </h5>
+            <div class="star">
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-regular fa-star" style="color: #FFD43B;"></i>              
+            </div>
+            <h4>20999/-</h4>
+          </div>
+          <a onclick="addtocart5()"> <i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro"> 
+          <img src="assets/images/shoe3.jpeg" alt="shoe1">
+          <div class="des">
+            <span>NIKE</span>
+            <h5>Nike Air FORCE 1 CLASSIC</h5>
+            <div class="star">
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-regular fa-star" style="color: #FFD43B;"></i>                <i class="fa-regular fa-star" style="color: #FFD43B;"></i>              
+            </div>
+            <h4>17999/-</h4>
+          </div>
+          <a href="#"> <i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro"> 
+          <img src="assets/images/shoes7.webp" alt="shoe1">
+          <div class="des">
+            <span>NIKE</span>
+            <h5>Nike DUNK LOW</h5>
+            <div class="star">
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-regular fa-star" style="color: #FFD43B;"></i>              
+            </div>
+            <h4>27999/-</h4>
+          </div>
+          <a href="#"> <i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        
+      </div>
+    </section>
+ 
+  
+
+
+
+    <footer class="section-p1" id="foot">
+      <div class="col">
+       <a href="index.html"> <img src="assets/images/nikelogo.png" alt="" height="100px" ></a>
+        <h4>Contact</h4>
+        <p> <strong> Address :</strong> 3098 south street Ahmedabad 380058</p>
+        <p><strong>Phone Number  :</strong> 90909090909090</p>
+    
+    </div>
+    </div>
+
+    </footer>
+    <script src="assets/ecom.js"></script>
+    <script src="https://kit.fontawesome.com/546678325c.js" crossorigin="anonymous"></script>
+  </body>
+</html>
